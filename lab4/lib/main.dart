@@ -65,13 +65,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Column(
                     children: [
-                      ListTile(
-                        title: const Text(
-                          'Общежитие №20',
-                          style: TextStyle(
-                              fontWeight: FontWeight.w500, fontSize: 20),
+                      Text(
+                        'Общежитие №20',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
                         ),
-                        subtitle: const Text('Краснодар, ул. Калинина, 13'),
+                      ),
+                      Text(
+                        'Краснодар, ул. Калинина, 13',
+                        style: TextStyle(color: Colors.black38),
                       ),
                     ],
                   ),
